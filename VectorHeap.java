@@ -115,8 +115,7 @@ public class VectorHeap<E extends Comparable<E>> implements PriorityQueueVector<
 
 	@Override
 	public E getFirst() {
-		// TODO Auto-generated method stub
-		return null;
+		return data.get(0);
 	}
 
 	@Override
@@ -127,8 +126,7 @@ public class VectorHeap<E extends Comparable<E>> implements PriorityQueueVector<
 
 	@Override
 	public int size() {
-		// TODO Auto-generated method stub
-		return 0;
+		return data.size();
 	}
 
 	@Override
